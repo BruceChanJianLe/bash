@@ -17,11 +17,25 @@ Ctrl-l | Clear the screen, eqivalent to `clear`
 Ctrl-s | Stop all output and pause process  
 Ctrl-q | Resume output and process  
 
-**Moving cursor without move and arrowkey**  
+**Working with text on bash**  
 Shortcut | Action  
 ---|---  
+_Moving Cursor_ |
 Ctrl-a / Home | Go to the beginning of the line  
 Ctrl-e / End | Go to the end of the line  
+Ctrl-b | Go back one character
+Alt-b | Go back one word
+Ctrl-f | Go forward one character
+Alt-f | Go forward one word
+Ctrl-XX | Move between the beginning of the line and the current position of the cursor
+_Deleting text_ |
+Ctrl-d / Delete | Delete the character under the cursor
+Alt-d | delete all characters after the cursor on the current line
+Ctrl-h / Backspace | Delete the character before the cursor
+_Fixing Typo_ |
+Alt-t | Swap current word with previous word
+Ctrl-t
+
 
 **Switching between tabs (recommend using tmux)**  
 Shortcut | Action  
