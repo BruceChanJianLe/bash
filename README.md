@@ -23,7 +23,7 @@ Ctrl-q | Resume output and process
 
 Shortcut | Action
 --- | ---
-_Moving Cursor_ |
+**_Moving Cursor_** |
 Ctrl-a / Home | Go to the beginning of the line
 Ctrl-e / End | Go to the end of the line
 Ctrl-b | Go back one character
@@ -31,20 +31,20 @@ Alt-b | Go back one word
 Ctrl-f | Go forward one character
 Alt-f | Go forward one word
 Ctrl-xx | Move between the beginning of the line and the current position of the cursor
-_Deleting text_ |
+**_Deleting text_** |
 Ctrl-d / Delete | Delete the character under the cursor
 Alt-d | delete all characters after the cursor on the current line
 Ctrl-h / Backspace | Delete the character before the cursor
-_Fixing Typo_ |
+**_Fixing Typo_** |
 Alt-t | Swap current word with previous word
 Ctrl-t | Swap the last two characters before the cursor with each other
 Ctrl-_ | Undo your last key pressed
-_Cut and Pastiong_ |
+**_Cut and Pastiong_** |
 Ctrl-w | Cut the word before cursor and add to clipboard
 Ctrl-k | Cut everything after cursor and add to clipboard
 Ctrl-u | Cut everything before cursor and add to clipboard
 Ctrl-y | Paste last added
-_Capitalizing Characters_ |
+**_Capitalizing Characters_** |
 Alt-u | Uppercase every character from cursor to the end of current word
 Alt-l | Lowercase every character from cursor to the end of current word
 Alt-c | Capitalize/Uppercase a character under the cursor and jump to the end of word
