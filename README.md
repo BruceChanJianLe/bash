@@ -30,7 +30,7 @@ Ctrl-b | Go back one character
 Alt-b | Go back one word
 Ctrl-f | Go forward one character
 Alt-f | Go forward one word
-Ctrl-XX | Move between the beginning of the line and the current position of the cursor
+Ctrl-xx | Move between the beginning of the line and the current position of the cursor
 _Deleting text_ |
 Ctrl-d / Delete | Delete the character under the cursor
 Alt-d | delete all characters after the cursor on the current line
