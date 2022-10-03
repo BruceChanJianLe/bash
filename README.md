@@ -67,5 +67,16 @@ Shortcut | Action
 Ctrl-Alt-t | New tab
 Alt-1 | Switch to tab 1, change 1 with the corresponding tab number you wish to visit
 
+# Scripts
+
+**Removing and Adding Slashes**
+```bash
+# Add slash
+STR="${STR%/}/"
+# Remove slash
+STR="${STR%/}"
+```
+[ref](https://gist.github.com/luciomartinez/c322327605d40f86ee0c)
+
 # Reference  
 [link1](https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/)  
